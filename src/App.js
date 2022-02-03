@@ -2,6 +2,7 @@ import './App.css';
 import { useContext } from 'react';
 import { ThemeContext } from './contexts/theme';
 import Header from './components/Header/Header';
+import About from './components/About/About';
 
 function App() {
   const [{ themeName }] = useContext(ThemeContext);
@@ -11,7 +12,7 @@ function App() {
       <Header />
 
       <main>
-        {/* <About /> */}
+        <About />
         {/* <Projects /> */}
         {/* <Skills /> */}
         {/* <Contact /> */}
