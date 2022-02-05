@@ -1,9 +1,8 @@
 const about = {
-  // all the properties are optional - can be left empty or deleted
   name: 'Tue An',
   role: 'Full-stack Developer',
   description:
-    "My name is An Nam Hoang Tri Tue and I am a software developer. I have worked with several front-end and back-end technologies. Currently my skillset has me focus on front-end development, but I'm ready to tackle any challenge.",
+    "My name is An Nam Hoang Tri Tue and I am a full-stack developer. I have worked with several front-end and back-end technologies. Currently my skillset has me focus on front-end development, but I'm ready to tackle any challenge.",
   resume: '',
   social: {
     linkedin: 'https://www.linkedin.com/in/tue-an/',
@@ -12,37 +11,32 @@ const about = {
 };
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Covid-19 Tracker',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A website to track new cases, recovers and deaths of Covid-19 worldwide',
+    stack: ['React'],
+    sourceCode: 'https://github.com/antritue/covid-19-tracker',
+    livePreview: 'https://covid-19-tracker-cbd40.web.app/',
   },
   {
-    name: 'Project 2',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    name: 'Easy Chat',
+    description: 'A simple chat application built with Next.js and Chat Engine',
+    stack: ['Next.js'],
+    sourceCode: 'https://github.com/antritue/nextjs-chat',
+    livePreview: 'https://nextjs-chat-livid.vercel.app/',
   },
   {
-    name: 'Project 3',
+    name: 'Memory Card Game',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'The objective of the game is to collect all matching pairs within the time frame.',
+    stack: ['HTML', 'CSS', 'Javascript'],
+    sourceCode: 'https://github.com/antritue/memory-card-game',
+    livePreview: 'https://antritue.github.io/memory-card-game/',
   },
 ];
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
   'JavaScript',
@@ -58,7 +52,6 @@ const skills = [
 ];
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
   email: 'johnsmith@mail.com',
 };
 
