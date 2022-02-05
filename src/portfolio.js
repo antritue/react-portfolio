@@ -37,18 +37,17 @@ const projects = [
 ];
 
 const skills = [
-  'HTML',
-  'CSS',
+  'HTML5',
+  'CSS3',
   'JavaScript',
-  'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Next.js',
+  'Node.js',
+  'Git/Github',
+  'MySQL',
+  'MongoDB',
+  'AWS',
+  'Azure',
 ];
 
 const contact = {

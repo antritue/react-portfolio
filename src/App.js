@@ -4,6 +4,7 @@ import { ThemeContext } from './contexts/theme';
 import Header from './components/Header/Header';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
+import Skills from './components/Skills/Skills';
 
 function App() {
   const [{ themeName }] = useContext(ThemeContext);
@@ -15,7 +16,7 @@ function App() {
       <main>
         <About />
         <Projects />
-        {/* <Skills /> */}
+        <Skills />
         {/* <Contact /> */}
       </main>
 
