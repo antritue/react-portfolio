@@ -7,6 +7,7 @@ import Projects from './components/Projects/Projects';
 import Skills from './components/Skills/Skills';
 import Contact from './components/Contact/Contact';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [{ themeName }] = useContext(ThemeContext);
@@ -23,7 +24,7 @@ function App() {
       </main>
 
       <ScrollToTop />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
