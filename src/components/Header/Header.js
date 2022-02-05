@@ -4,7 +4,7 @@ import './Header.css';
 const Header = () => {
   return (
     <header className="header center">
-      <h3>Tue An</h3>
+      <h3>Portfolio</h3>
       <Navbar />
     </header>
   );
