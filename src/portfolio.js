@@ -43,11 +43,12 @@ const skills = [
   'React',
   'Next.js',
   'Node.js',
-  'Git/Github',
-  'MySQL',
-  'MongoDB',
+  'Git',
+  'Github',
   'AWS',
   'Azure',
+  'MySQL',
+  'MongoDB',
 ];
 
 const contact = {
