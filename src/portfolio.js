@@ -1,8 +1,8 @@
 const about = {
   name: 'Tue An',
-  role: 'Full-stack Developer',
+  role: 'Full Stack Developer',
   description:
-    "My name is An Nam Hoang Tri Tue and I am a full-stack developer. I have worked with several front-end and back-end technologies. Currently my skillset has me focus on front-end development, but I'm ready to tackle any challenge.",
+    "My name is An Nam Hoang Tri Tue and I am a full stack developer. I have worked with several front-end and back-end technologies. Currently my skillset has me focus on front-end development, but I'm ready to tackle any challenge.",
   resume: '',
   social: {
     linkedin: 'https://www.linkedin.com/in/tue-an/',
@@ -29,7 +29,7 @@ const projects = [
   {
     name: 'Memory Card Game',
     description:
-      'The objective of the game is to collect all matching pairs within the time frame.',
+      'The objective of the game is to collect all matching pairs within the time frame',
     stack: ['HTML', 'CSS', 'Javascript'],
     sourceCode: 'https://github.com/antritue/memory-card-game',
     livePreview: 'https://antritue.github.io/memory-card-game/',
