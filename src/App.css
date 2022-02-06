@@ -9,18 +9,18 @@
 .light {
   --clr-bg: #fcfcfc;
   --clr-bg-alt: #fff;
-  --clr-fg: #555;
-  --clr-fg-alt: #444;
-  --clr-primary: #2978b5;
+  --clr-fg: #45453d;
+  --clr-fg-alt: #38312e;
+  --clr-primary: #a32727;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .dark {
-  --clr-bg: #23283e;
-  --clr-bg-alt: #2a2f4c;
+  --clr-bg: #191d32;
+  --clr-bg-alt: #282f44;
   --clr-fg: #bdbddd;
-  --clr-fg-alt: #cdcdff;
-  --clr-primary: #90a0d9;
+  --clr-fg-alt: #60a3d9;
+  --clr-primary: #b1d4e0;
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
@@ -123,7 +123,7 @@ main {
 .btn--plain {
   text-transform: initial;
   background-color: var(--clr-bg-alt);
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 3px 1px;
   border: 0;
 }
 
@@ -142,6 +142,11 @@ main {
 
 .btn--icon:active {
   transform: translateY(-5px);
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
 }
 
 @media (max-width: 600px) {
