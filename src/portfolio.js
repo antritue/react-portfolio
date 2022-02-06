@@ -1,9 +1,15 @@
+const header = {
+  homepage: 'https://antritue.github.io/react-portfolio/',
+  title: 'Portfolio',
+};
+
 const about = {
   name: 'Tue An',
   role: 'Full Stack Developer',
   description:
     "My name is An Nam Hoang Tri Tue and I am a full stack developer. I have worked with several front-end and back-end technologies. Currently my skillset has me focus on front-end development, but I'm ready to tackle any challenge.",
-  resume: 'https://drive.google.com/file/d/19Ani2s_PFwyvIRw03cdx87_ddIaNfaV8/view',
+  resume:
+    'https://drive.google.com/file/d/19Ani2s_PFwyvIRw03cdx87_ddIaNfaV8/view',
   social: {
     linkedin: 'https://www.linkedin.com/in/tue-an/',
     github: 'https://github.com/antritue',
@@ -55,4 +61,4 @@ const contact = {
   email: 'antritue@mail.com',
 };
 
-export { about, projects, skills, contact };
+export { header, about, projects, skills, contact };
