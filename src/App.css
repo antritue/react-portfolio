@@ -101,23 +101,8 @@ main {
 .btn--outline:hover,
 .btn--outline:focus {
   color: var(--clr-bg);
-}
-
-.btn--outline:before {
-  content: '';
-  position: absolute;
   background-color: var(--clr-primary);
-  right: 100%;
-  bottom: 0;
-  left: 0;
-  top: 0;
-  z-index: -1;
-  transition: right 0.2s ease-in-out;
-}
-
-.btn--outline:hover:before,
-.btn--outline:focus:before {
-  right: 0;
+  transition: 0.2s ease-in-out;
 }
 
 .btn--plain {

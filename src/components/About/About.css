@@ -19,14 +19,14 @@
 .about__desc,
 .about__contact {
   margin-top: 2.4em;
+  flex-direction: column;
 }
 
-.about .link--icon {
-  margin-right: 0.8em;
-}
-
-.about .btn--outline {
-  margin-right: 1em;
+.social {
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 @media (max-width: 600px) {
