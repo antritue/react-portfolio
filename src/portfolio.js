@@ -7,7 +7,7 @@ const about = {
   name: 'Tue An',
   role: 'Full Stack Developer',
   description:
-    "My name is An Nam Hoang Tri Tue and I am a full stack developer. I have worked with several front-end and back-end technologies. Currently my skillset has me focus on front-end development, but I'm ready to tackle any challenge.",
+    "My name is An Nam Hoang Tri Tue and I am a full stack web developer. I have worked with several front-end and back-end technologies. Currently my skillset has me focus on front-end development, but I'm ready to tackle any challenge.",
   resume:
     'https://drive.google.com/file/d/19Ani2s_PFwyvIRw03cdx87_ddIaNfaV8/view',
   social: {
@@ -18,17 +18,25 @@ const about = {
 
 const projects = [
   {
+    name: 'Blog',
+    description:
+      'A SEO blog under active development built with Next.js, GraphQL and Hygraph CMS',
+    stack: ['Next.js, GraphQL, Hygraph CMS'],
+    sourceCode: 'https://github.com/antritue/blog',
+    livePreview: 'https://blog-antritue.vercel.app/',
+  },
+  {
     name: 'Covid-19 Tracker',
     description:
       'A website to track new cases, recovers and deaths of Covid-19 worldwide',
-    stack: ['React'],
+    stack: ['React, Material UI, React Leaflet, Chart JS'],
     sourceCode: 'https://github.com/antritue/covid-19-tracker',
     livePreview: 'https://covid-19-tracker-cbd40.web.app/',
   },
   {
     name: 'Easy Chat',
     description: 'A simple chat application built with Next.js and Chat Engine',
-    stack: ['Next.js'],
+    stack: ['Next.js, Chat Engine'],
     sourceCode: 'https://github.com/antritue/nextjs-chat',
     livePreview: 'https://nextjs-chat-livid.vercel.app/',
   },
@@ -47,7 +55,9 @@ const skills = [
   'CSS3',
   'JavaScript',
   'React',
+  'Serverless Framwork',
   'Next.js',
+  'React Native',
   'Node.js',
   'Git',
   'Github',
