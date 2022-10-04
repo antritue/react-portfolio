@@ -23,7 +23,7 @@ const projects = [
       'A SEO blog under active development built with Next.js, GraphQL and Hygraph CMS',
     stack: ['Next.js, GraphQL, Hygraph CMS'],
     sourceCode: 'https://github.com/antritue/blog',
-    livePreview: 'https://blog-antritue.vercel.app/',
+    livePreview: 'https://kimngan.blog/',
   },
   {
     name: 'Covid-19 Tracker',
