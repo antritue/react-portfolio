@@ -9,7 +9,7 @@ const about = {
   description:
     "My name is An Nam Hoang Tri Tue and I am a full stack web developer. I have worked with several front-end and back-end technologies. Currently my skillset has me focus on front-end development, but I'm ready to tackle any challenge.",
   resume:
-    'https://drive.google.com/drive/folders/14OTxMc499jleo8AkpuE5HtZ5KAj7GoEW',
+    'https://drive.google.com/file/d/1PsxFCE9QYao2oWB9EyCbQMprs_Rz82jl/view',
   social: {
     linkedin: 'https://www.linkedin.com/in/tue-an/',
     github: 'https://github.com/antritue',
