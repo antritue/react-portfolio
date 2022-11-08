@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://antritue.com",
+  "homepage": "https://antritue.github.io/react-portfolio/",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
